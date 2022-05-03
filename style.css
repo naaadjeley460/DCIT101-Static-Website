@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    z-index: 100;
+    position: relative;
+}
+
+.logo {
+    margin-left: 3rem;
+    
+}
+
+.logo-link {
+    color: #fff;
+}
+
+.nav-menu {
+    display: flex;
+    column-gap: 2rem;
+    margin-right: 3rem;
+}
+
+/* This is for if you want to make a comment */
+.nav-item {
+    list-style: none; /* Removes the bullets */
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.home {
+    height: 100vh; /* 100% of the screen's height */
+}
+
+.home-img {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /*This is used to correct a stretched image */
+}
+
+.home-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7rem;
+}
+
+.home-text {
+    color: #fff;   
+}
+
+.home-subtitle {
+    font-weight: 400;
+}
+
+.home-title {
+    font-size: 3rem;
+}
+.home-title span {
+    color: #e78b29;
+}
+
+.about {
+    display: flex;
+    padding: 5rem;
+    column-gap: 2rem;
+}
+
+.about-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.about-title {
+    color: #e78b29;
+    font-size: 3.5rem;
+}
+
+.about-description{
+    font-size: 1.5rem;
+}
+.services {
+    display: flex;
+    padding: 5rem;
+    column-gap: 2rem;
+}
+
+.services-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.services-title {
+    color: #e78b29;
+    font-size: 3.5rem;
+}   
+
+
+.contact {
+    display: flex;
+    padding: 5rem;
+}
+
+.contact-title {
+    color: #e78b29;
+    font-size: 3.5rem;
+}
